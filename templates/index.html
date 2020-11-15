@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="jumbotron text-center">
+    <h3>Kişisel Web Siteme Hoşgeldiniz :)</h3>
+    <p>Öğrenirken geliştirmeyi, geliştirirken öğrenmeyi amaçlayan biriyim. Şuan bu sitedeysen ve beni tanımıyorsan bence tanışmalıyız. Yaz bana! 🙂 gurkangltekin@icloud.com</p>
+</div>
+{% if answer == "evet" %}
+<p>Cevap evet...</p>
+{% else %}
+<p>Cevap evet değil...</p>
+{% endif %}
+
+{% endblock body %}
